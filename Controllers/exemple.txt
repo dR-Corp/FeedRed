@@ -1,0 +1,72 @@
+$req = "Soit le sujet : ".$titre.". 
+        D'après toi, dans quel style ou ton il serait préférable de rédiger un article sur ce sujet ? 
+        En t'inspirant de ce style ou ton, redige moi stp, le plan de rédaction d'un ".$type." sur ce sujet. 
+        L'article à rediger doit contenir au final ".$nbrMots." mots. 
+        Affiche moi seulement les titres. 
+        Fournir moi ce plan sous forme de code HTML.
+        
+        Voici un exemple du résultat optimisé que tu devras fournir :         
+
+        Introduction
+
+        Section 1 : un titre ici
+        
+        Section 2 : un titre ici
+        
+        Section 3 : un titre ici
+        
+        Conclusion
+
+        Voilà c'est tout pour l'exemple.
+        Pour chaque titre tiens compte du précédent, ne soit pas trop répétitif.
+        Propose un plan plus humains.
+        Tu pourras rajouter plus de section en fonction du volume de la rédaction.
+    ";
+
+    ".(isset($description) && ($description != '')) ? "Utiliser les informations complémentaires suivantes : ".$description : ""."
+
+
+Je souhaiterais que vous m'aidiez à écrire le plan de rédaction 
+d'un ".$type." de ".$nbrMots." mots sur le sujet ".$titre." en utilisant un style ".$style." et un ton ".$ton.". 
+Pour cela, suivez les instructions suivantes :
+1- Me fournir un plan de rédaction détaillé incluant les titres des sections (<h2>) et les sous-parties (<h3>).
+2- Précéder les sous-parties d'un tiret (-).
+3- Tenir compte des titres précédents pour éviter la répétition et en utilisant des termes professionnels et spécifiques liés sujet
+4- Vous baser sur des sources fiables et vérifier l'exactitude des informations
+4- Inclure des exemples concrets et des études de cas pour renforcer l'article
+6- Optimiser pour le SEO en utilisant des mots clés pertinents
+7- Tenir compte de la structure de l'article pour qu'il soit facile à lire et agréable à parcourir pour les internautes
+8- Vérifier l'orthographe et la grammaire de l'article avant de me le soumettre.
+
+Soit le sujet :  Comment perdre 10 Kg en une semaine. D'après toi, dans quel style ou ton il serait préférable de rédiger un article sur ce sujet ? En t'inspirant de ce style ou ton, redige moi stp, le plan de rédaction d'un Article de blog sur ce sujet. L'article à rediger doit contenir au final 499 mots. 
+Voici un exemple du résultat que tu devras fournir : 
+Pour un article de 1000 mots sur Comment rédiger le plan d'un article web optimisé :
+I. Introduction :
+
+Présentation de l'importance de la rédaction d'articles web pour améliorer le référencement et augmenter le trafic sur un site web
+Présentation des objectifs de l'article (aider les lecteurs à comprendre comment rédiger un plan efficace pour un article web)
+II. Définir son public cible :
+
+Présentation de l'importance de connaître son public cible pour rédiger un article web efficace
+Présentation des outils pour identifier son public cible (analyse de la concurrence, étude de marché, etc.)
+Présentation des différents types de public cible (personnes à la recherche d'informations, personnes à la recherche d'un produit ou d'un service, etc.)
+III. Choisir un sujet pertinent :
+
+Présentation de l'importance de choisir un sujet pertinent pour rédiger un article web efficace
+Présentation des outils pour trouver des sujets pertinents (outils de recherche de mots-clés, analyse des tendances, etc.)
+Présentation des différents types de sujets pertinents (actualités, astuces, tutoriels, etc.)
+IV. Structurer son article :
+
+Présentation de l'importance de structurer son article pour améliorer la lisibilité et l'expérience utilisateur
+Présentation des différentes structures d'articles (introduction, développement, conclusion, etc.)
+Présentation des astuces pour structurer son article (utiliser des titres et des sous-titres, utiliser des images et des vidéos, etc.)
+V. Optimiser le SEO :
+
+Présentation de l'importance de l'optimisation SEO pour améliorer le référencement d'un article web
+Présentation des différents éléments à prendre en compte pour optimiser le SEO (mots-clés, balise meta, etc.)
+Présentation des outils pour optimiser le SEO (Yoast SEO, SEMrush, etc.)
+VI. Conclusion :
+
+Résumé des principaux conseils donnés dans l'article
+Conseils pour mettre en pratique les astuces pour rédiger un plan d'article web optimisé
+Invitation à utiliser ces conseils pour améliorer les performances de son site internet.

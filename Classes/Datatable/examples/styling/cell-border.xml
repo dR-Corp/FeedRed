@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dt-example table-type="html" table-class="cell-border" order="3">
+
+<css lib="datatables" />
+
+<title>Base style - cell borders</title>
+<js lib="jquery datatables">
+<![CDATA[
+$(document).ready(function () {
+	$('#example').DataTable();
+});
+]]>
+</js>
+<js-vanilla>
+<![CDATA[
+document.addEventListener('DOMContentLoaded', function () {
+    new DataTable('#example');
+});
+]]>
+</js-vanilla>
+
+<info><![CDATA[
+
+This example shows DataTables with just the `cell-border` class specified, giving a strong delineation between individual cells.
+
+]]></info>
+
+</dt-example>

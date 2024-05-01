@@ -1,0 +1,129 @@
+{
+    "r": "reload-redaction.html",
+    "draw": "3",
+    "columns": [
+        {
+            "data": "idRedaction",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "article",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "redacteur",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "nbrMots",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "dateRedaction",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "correction",
+            "name": "",
+            "searchable": "false",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "raisons",
+            "name": "",
+            "searchable": "false",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "idRedaction",
+            "name": "",
+            "searchable": "false",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        },
+        {
+            "data": "",
+            "name": "",
+            "searchable": "true",
+            "orderable": "true",
+            "search": {
+                "value": "",
+                "regex": "false"
+            }
+        }
+    ],
+    "order": [
+        {
+            "column": "0",
+            "dir": "desc"
+        }
+    ],
+    "start": "0",
+    "length": "10",
+    "search": {
+        "value": "aq",
+        "regex": "false"
+    },
+    "_": "1669986072694"
+}

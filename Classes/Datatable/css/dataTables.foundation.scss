@@ -1,0 +1,118 @@
+
+$table-row-selected: rgba(0, 137, 182, 0.9);
+
+@import './common.scss';
+@import './ordering.scss';
+@import './processing.scss';
+@import './typography.scss';
+
+table.dataTable {
+	clear: both;
+	margin: 0.5em 0 !important;
+	max-width: none !important;
+	width: 100%;
+
+	td,
+	th {
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+
+		&.dataTables_empty {
+			text-align: center;
+		}
+	}
+
+	// Style options for the table. Foundation provides its own, but it is also
+	// useful to have a few more for DataTables
+	&.nowrap {
+		th, td {
+			white-space: nowrap;
+		}
+	}
+
+	// Override default row striping, replacing with an insert box-shadow
+	tr:nth-child(2n) {
+		background-color: transparent;
+	}
+
+	@include row-stripes('', '.hover', 0.054, 0.074, '.even');
+}
+
+
+// DataTables' built in feature elements
+div.dataTables_wrapper {
+	position: relative;
+
+	div.dataTables_length {
+		label {
+			float: left;
+			text-align: left;
+			margin-bottom: 0;
+		}
+
+		select {
+			width: 75px;
+			margin-bottom: 0;
+		}
+	}
+
+	div.dataTables_filter {
+		label {
+			float: right;
+			margin-bottom: 0;
+		}
+	
+		input {
+			display: inline-block !important;
+			width: auto !important;
+			margin-bottom: 0;
+			margin-left: 0.5em;
+		}
+	}
+
+	div.dataTables_info {
+		padding-top: 2px;
+	}
+
+	div.dataTables_paginate {
+		float: right;
+		margin: 0;
+	}
+
+	div.dataTables_processing {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 200px;
+		margin-left: -100px;
+		margin-top: -26px;
+		text-align: center;
+		padding: 1rem 0;
+	}
+}
+
+
+// Scrolling
+div.dataTables_scrollHead table {
+	margin-bottom: 0 !important;
+}
+
+div.dataTables_scrollBody {
+	table {
+		border-top: none;
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+
+		tbody tr:first-child th,
+		tbody tr:first-child td {
+			border-top: none;
+		}
+	}
+}
+
+div.dataTables_scrollFoot table {
+	margin-top: 0 !important;
+	border-top: none;
+}
+
+

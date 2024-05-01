@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dt-example table-type="html" order="13" framework="semanticui">
+
+<css lib="datatables" />
+
+<title>Fomantic-UI (formally Semantic-UI)</title>
+<js lib="jquery datatables semanticui">
+<![CDATA[
+$(document).ready(function () {
+	$('#example').DataTable();
+});
+]]>
+</js>
+<js-vanilla>
+<![CDATA[
+document.addEventListener('DOMContentLoaded', function () {
+    new DataTable('#example');
+});
+]]>
+</js-vanilla>
+
+<info><![CDATA[
+
+This example shows DataTables integrated with [Fomantic-UI](https://fomantic-ui.com/) (a maintained community fork of [Semantic-UI](http://semantic-ui.com/)). Fomantic-UI is a comprehensive framework that uses CSS class names like words to create natural language styling library.
+
+]]></info>
+
+</dt-example>
